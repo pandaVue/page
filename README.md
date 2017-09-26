@@ -15,7 +15,7 @@ npm run dev
 npm run build
 ```
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-# page
+# 
     <page
         :total="total" 
         :limit="10" 
@@ -44,7 +44,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
         }
     }
 
-# page
+# 
 公共组件目录 page/src/components/public/
 
 测试目录 page/src/components/myvue/
