@@ -12,19 +12,20 @@ npm install
 npm run dev
 
 ```
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # 组件应用
-    <page
-        :total="total" 
-        :limit="10" 
-        :defultPage="5"
-        :defultJump="1"
-        @change="pageChange"></page>
+ 
+
     /*
     *引入组件
     *limit，等可像total自定义变量
     */
-
+   <page
+    :total="total" 
+    :limit="10" 
+    :defultPage="5"
+    :defultJump="1"
+    @change="pageChange"></page>
+    
     import Page from '../public/page.vue'
     export default {
         data(){
@@ -42,7 +43,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
         }
     }
 
-# page
+# 目录结构
 公共组件目录 page/src/components/public/
 
 测试目录 page/src/components/myvue/
