@@ -2,7 +2,7 @@
 <template  id="page">
   <div>
         <page
-        :total="53" 
+        :total="total" 
         :limit="10" 
         :defultPage="5"
         :defultJump="1"
@@ -13,7 +13,9 @@
 import Page from '../public/page.vue'
 export default {
     data(){
-        return {}
+        return {
+            total:100
+        }
     },
     components:{
         Page
