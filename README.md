@@ -11,12 +11,10 @@ npm install
 # serve with hot reload at localhost:8080
 npm run dev
 
-# build for production with minification
-npm run build
 ```
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
-    
-    <page
+# 组件应用
+    <page
         :total="total" 
         :limit="10" 
         :defultPage="5"
@@ -24,7 +22,7 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
         @change="pageChange"></page>
     /*
     *引入组件
-    *limit,defultPage等可像total自定义变量
+    *limit，等可像total自定义变量
     */
 
     import Page from '../public/page.vue'
@@ -39,12 +37,12 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
         },
         methods:{
             pageChange(index){
-                alert(index)
-          }
+            alert(index)
+            }
         }
-    }   
+    }
 
-# 
+# page
 公共组件目录 page/src/components/public/
 
 测试目录 page/src/components/myvue/
