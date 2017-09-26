@@ -16,7 +16,8 @@ npm run build
 ```
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
 # 
-    <page
+    组件使用
+    <page
         :total="total" 
         :limit="10" 
         :defultPage="5"
@@ -39,8 +40,8 @@ For detailed explanation on how things work, consult the [docs for vue-loader](h
         },
         methods:{
             pageChange(index){
-            alert(index)
-            }
+                alert(index)
+          }
         }
     }
 
